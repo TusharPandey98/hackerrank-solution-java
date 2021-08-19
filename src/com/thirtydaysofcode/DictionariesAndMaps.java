@@ -1,18 +1,16 @@
-package com.java;
+package com.thirtydaysofcode;
 
 import java.util.HashMap;
-import java.util.Map;
 import java.util.Scanner;
 
-public class JavaMap {
+public class DictionariesAndMaps {
     public static void main(String[] args) {
         HashMap<String ,Integer> phoneBook = new HashMap<>();
         Scanner sc = new Scanner(System.in);
         String query;
         int n = sc.nextInt();
-        sc.nextLine();
         for (int i = 0; i < n; i++) {
-            String name = sc.nextLine().trim();
+            String name = sc.next().trim();
             int phone = sc.nextInt();
             sc.nextLine();
             phoneBook.put(name, phone);
