@@ -17,12 +17,6 @@ class Person {
         return firstName;
     }
 
-    public void setFirstName(String firstName) {
-        if (firstName.length() >= 1 && firstName.length() <= 10) {
-            this.firstName = firstName;
-        }
-    }
-
     public String getLastName() {
         return lastName;
     }
