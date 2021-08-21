@@ -1,5 +1,7 @@
-package com.thirtydaysofcode;
+package com.thirtydaysofcode.day15;
 
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 class Node {
@@ -33,8 +35,9 @@ public class LinkedList {
         return head;
     }
 
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+    public static void main(String[] args) throws FileNotFoundException {
+        File file = new File("src/com/thirtydaysofcode/testcases/day15.txt");
+        Scanner sc = new Scanner(file);
         Node head = null;
         int N = sc.nextInt();
 

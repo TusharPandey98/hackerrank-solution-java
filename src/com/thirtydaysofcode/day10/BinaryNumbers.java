@@ -1,4 +1,4 @@
-package com.thirtydaysofcode;
+package com.thirtydaysofcode.day10;
 
 import java.util.Scanner;
 import java.util.Stack;

@@ -1,4 +1,4 @@
-package com.thirtydaysofcode;
+package com.thirtydaysofcode.day8;
 
 import java.util.HashMap;
 import java.util.Scanner;

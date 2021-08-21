@@ -1,4 +1,4 @@
-package com.thirtydaysofcode;
+package com.thirtydaysofcode.day11;
 
 import java.io.IOException;
 import java.util.Scanner;
