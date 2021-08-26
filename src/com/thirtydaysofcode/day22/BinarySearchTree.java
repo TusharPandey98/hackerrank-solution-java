@@ -40,6 +40,8 @@ public class BinarySearchTree {
     }
 
     public static void main(String[] args) throws FileNotFoundException {
+        //JUST FOR TESTING AND CODING IN IDE
+        //Replace File with (System.in) and remove FileNotFoundException from main method
         File file = new File("src/com/thirtydaysofcode/testcases/day22.txt");
         Scanner sc = new Scanner(file);
         int T = sc.nextInt();

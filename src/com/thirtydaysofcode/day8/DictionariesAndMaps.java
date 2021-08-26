@@ -1,12 +1,16 @@
 package com.thirtydaysofcode.day8;
 
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.HashMap;
 import java.util.Scanner;
 
 public class DictionariesAndMaps {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FileNotFoundException {
         HashMap<String ,Integer> phoneBook = new HashMap<>();
-        Scanner sc = new Scanner(System.in);
+        //JUST FOR TESTING AND CODING IN IDE
+        //Replace File with (System.in) and remove FileNotFoundException from main method
+        Scanner sc = new Scanner(new File("src/com/thirtydaysofcode/testcases/day8.txt"));
         String query;
         int n = sc.nextInt();
         for (int i = 0; i < n; i++) {

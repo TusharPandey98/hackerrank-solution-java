@@ -36,6 +36,8 @@ public class LinkedList {
     }
 
     public static void main(String[] args) throws FileNotFoundException {
+        //JUST FOR TESTING AND CODING IN IDE
+        //Replace File with (System.in) and remove FileNotFoundException from main method
         File file = new File("src/com/thirtydaysofcode/testcases/day15.txt");
         Scanner sc = new Scanner(file);
         Node head = null;

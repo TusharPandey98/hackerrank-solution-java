@@ -1,5 +1,7 @@
 package com.thirtydaysofcode.day13;
 
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 abstract class Book{
@@ -29,8 +31,10 @@ class MyBook extends Book{
     }
 }
 public class AbstractClasses {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+    public static void main(String[] args) throws FileNotFoundException {
+        //JUST FOR TESTING AND CODING IN IDE
+        //Replace File with (System.in) and remove FileNotFoundException from main method
+        Scanner scanner = new Scanner(new File("src/com/thirtydaysofcode/testcases/day13.txt"));
         String title = scanner.nextLine();
         String author = scanner.nextLine();
         int price = scanner.nextInt();

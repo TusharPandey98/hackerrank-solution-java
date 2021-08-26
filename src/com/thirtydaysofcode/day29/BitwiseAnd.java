@@ -19,7 +19,7 @@ class Result {
             for (int j = i + 1; j <= N; j++) {
                 int result = i & j;
                 if (result < K && result > max) {
-                    max++;
+                    max = result;
                 }
             }
         }
@@ -30,6 +30,8 @@ class Result {
 
 public class BitwiseAnd {
     public static void main(String[] args) throws FileNotFoundException {
+        //JUST FOR TESTING AND CODING IN IDE
+        //Replace File with (System.in) and remove FileNotFoundException from main method
         Scanner sc = new Scanner(new File("src/com/thirtydaysofcode/testcases/day29.txt"));
         int T = sc.nextInt();
         while (T-- > 0) {

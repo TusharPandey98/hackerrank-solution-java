@@ -1,5 +1,7 @@
 package com.thirtydaysofcode.day12;
 
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 class Person {
@@ -80,8 +82,10 @@ class Student extends Person {
 }
 
 public class Inheritance {
-    public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
+    public static void main(String[] args) throws FileNotFoundException {
+        //JUST FOR TESTING AND CODING IN IDE
+        //Replace File with (System.in) and remove FileNotFoundException from main method
+        Scanner scan = new Scanner(new File("src/com/thirtydaysofcode/testcases/day12.txt"));
         String firstName = scan.next();
         String lastName = scan.next();
         int id = scan.nextInt();

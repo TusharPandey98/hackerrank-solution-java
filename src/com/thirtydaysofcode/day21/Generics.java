@@ -1,5 +1,7 @@
 package com.thirtydaysofcode.day21;
 
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 class Printer<T>{
@@ -11,8 +13,10 @@ class Printer<T>{
 }
 public class Generics {
 
-    public static void main(String args[]) {
-        Scanner scanner = new Scanner(System.in);
+    public static void main(String args[]) throws FileNotFoundException {
+        //JUST FOR TESTING AND CODING IN IDE
+        //Replace File with (System.in) and remove FileNotFoundException from main method
+        Scanner scanner = new Scanner(new File("src/com/thirtydaysofcode/testcases/day21.txt"));
         int n = scanner.nextInt();
         Integer[] intArray = new Integer[n];
         for (int i = 0; i < n; i++) {

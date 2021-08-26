@@ -1,5 +1,7 @@
 package com.thirtydaysofcode.day14;
 
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 class Difference{
@@ -25,8 +27,10 @@ class Difference{
     }
 }
 public class Scope {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+    public static void main(String[] args) throws FileNotFoundException {
+        //JUST FOR TESTING AND CODING IN IDE
+        //Replace File with (System.in) and remove FileNotFoundException from main method
+        Scanner sc = new Scanner(new File("src/com/thirtydaysofcode/testcases/day14.txt"));
         int n = sc.nextInt();
         int[] a = new int[n];
         for (int i = 0; i < n; i++) {

@@ -1,5 +1,6 @@
 package com.thirtydaysofcode.day11;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -26,7 +27,9 @@ public class Java2DArray {
     }
 
     public static void main(String[] args) throws IOException {
-        Scanner sc = new Scanner(System.in);
+        //JUST FOR TESTING AND CODING IN IDE
+        //Replace File with (System.in) and remove FileNotFoundException from main method
+        Scanner sc = new Scanner(new File("src/com/thirtydaysofcode/testcases/day11.txt"));
         int arr[][] = new int[6][6];
         for (int i = 0; i < 6; i++) {
             for (int j = 0; j < 6; j++) {

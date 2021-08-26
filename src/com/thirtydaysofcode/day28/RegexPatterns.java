@@ -8,6 +8,8 @@ import java.util.regex.Pattern;
 
 public class RegexPatterns {
     public static void main(String[] args) throws FileNotFoundException {
+        //JUST FOR TESTING AND CODING IN IDE
+        //Replace File with (System.in) and remove FileNotFoundException from main method
         Scanner sc = new Scanner(new File("src/com/thirtydaysofcode/testcases/day28.txt"));
         int N = sc.nextInt();
         //Regular Expression

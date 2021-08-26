@@ -35,6 +35,8 @@ public class ClassVsInstance {
         age++;
     }
     public static void main(String[] args) throws FileNotFoundException {
+        //JUST FOR TESTING AND CODING IN IDE
+        //Replace File with (System.in) and remove FileNotFoundException from main method
         Scanner sc = new Scanner(new File("src/com/thirtydaysofcode/testcases/day4.txt"));
         int T = sc.nextInt();
         for (int i = 0; i < T; i++) {

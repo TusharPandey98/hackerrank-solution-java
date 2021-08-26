@@ -8,6 +8,8 @@ import java.util.Scanner;
 
 public class NestedLogic {
     public static void main(String[] args) throws FileNotFoundException {
+        //JUST FOR TESTING AND CODING IN IDE
+        //Replace File with (System.in) and remove FileNotFoundException from main method
         Scanner sc = new Scanner(new File("src/com/thirtydaysofcode/testcases/day26.txt"));
         int d1, d2, m1, m2, y1, y2;
         d1 = sc.nextInt();

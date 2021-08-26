@@ -9,7 +9,8 @@ public class DataTypes {
         int i = 4;
         double d = 4.0;
         String s = "HackerRank ";
-
+        //JUST FOR TESTING AND CODING IN IDE
+        //Replace File with (System.in) and remove FileNotFoundException from main method
         Scanner scan = new Scanner(new File("src/com/thirtydaysofcode/testcases/day1.txt"));
 
         /* Declare second integer, double, and String variables. */

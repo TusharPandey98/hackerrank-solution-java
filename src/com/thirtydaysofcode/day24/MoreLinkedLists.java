@@ -53,6 +53,8 @@ public class MoreLinkedLists {
         }
     }
     public static void main(String[] args) throws FileNotFoundException {
+        //JUST FOR TESTING AND CODING IN IDE
+        //Replace File with (System.in) and remove FileNotFoundException from main method
         Scanner sc=new Scanner(new File("src/com/thirtydaysofcode/testcases/day24.txt"));
         Node head=null;
         int T=sc.nextInt();

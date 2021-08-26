@@ -15,7 +15,8 @@ public class Operators {
         totalCost = meal_cost+tax+tip;
         System.out.println(Math.round(totalCost));
     }
-
+    //JUST FOR TESTING AND CODING IN IDE
+    //Replace File with (System.in) and remove FileNotFoundException from main method
     public static void main(String[] args) throws FileNotFoundException {
         Scanner scanner = new Scanner(new File("src/com/thirtydaysofcode/testcases/day2.txt"));
         double meal_cost = scanner.nextDouble();
